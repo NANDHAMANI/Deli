@@ -1,0 +1,202 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin: 0;
+}
+
+/* Make sure the hero section takes the full viewport height */
+.hero-section {
+    background-image: url(img/farhad-ibrahimzade-UQ50GwZLwX8-unsplash.jpg); /* Replace this with your actual image path */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Adding a dark overlay for better text visibility */
+.hero-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Hero content styling */
+.hero-content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+.hero-content h1,
+.hero-content h2 {
+    margin: 0;
+}
+
+/* Sticky navbar */
+.navbar {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.reservation-btn {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 10px 20px;
+    transition: 0.3s;
+}
+
+.reservation-btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.scroll-down {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.scroll-down i {
+    font-size: 2rem;
+    color: white;
+}
+
+.menu-section {
+    padding: 50px 0;
+}
+.menu-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.menu-subtitle {
+    font-size: 1rem;
+    margin-bottom: 40px;
+}
+.menu-item {
+    margin-bottom: 20px;
+}
+.menu-item-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.menu-item-ingredients {
+    font-size: 0.9rem;
+    color: #888;
+}
+.menu-item-price {
+    font-weight: bold;
+}
+.btn-view-menu {
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+.btn-view-menu:hover {
+    background-color: #ffffff;
+    color: #1a1a1a;
+}
+
+.hero-section {
+    background-image: url('img/thomas-park-Lm10kU296mM-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.hero-content {
+    position: relative;
+    z-index: 1;
+    color: white;
+    padding-top: 20vh;
+}
+.hero-subtitle {
+    max-width: 600px;
+}
+
+.hight{
+    height: 225px;
+}
+
+.team-member-img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.testimonial-section {
+    background-image: url('img/clay-leconey-jhdEABy0c8Q-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    position: relative;
+}
+.testimonial-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.testimonial-content {
+    position: relative;
+    z-index: 1;
+    color: white;
+}
+.testimonial-card {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    padding: 20px;
+    
+}
+.avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 3px solid #ffc107;
+    margin-bottom: 20px;
+}
+
+.reservation-section {
+    background-color: #f8f9fa;
+    padding: 4rem 0;
+}
+.reservation-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.phone-number {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
